@@ -1,0 +1,9 @@
+# This file generates the GitHub Actions matrix.
+# For simple board + shield combinations, add them to the top level board and
+# shield arrays, for more control, add individual board + shield combinations
+# to the `include` property. You can also use the `cmake-args` property to
+# pass flags to the build command and `artifact-name` to assign a name to
+# distinguish build outputs from each other:
+#
+board: [ "seeeduino_xiao_rp2040" ]
+shield: [ "wired_diamond_left", "wired_diamond_right" ]
