@@ -81,7 +81,7 @@ Continue in the section below to understand what else is necessary but implicitl
 
 For the settings above to work, the following inherited settings are assumed:
 
-In the ZMK repo file `boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040.dts`:
+In the Zephyr repo file [boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040.dts](https://github.com/zmkfirmware/zephyr/blob/v3.5.0%2Bzmk-fixes/boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040.dts):
 
 ```
 &uart0 {
@@ -92,7 +92,7 @@ In the ZMK repo file `boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040.dts
 };
 ```
 
-In the ZMK repo file `boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040-pinctl.dtsi`:
+In the Zephyr repo file [boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040-pinctl.dtsi](https://github.com/zmkfirmware/zephyr/blob/v3.5.0%2Bzmk-fixes/boards/arm/seeeduino_xiao_rp2040/seeeduino_xiao_rp2040-pinctl.dtsi):
 
 ```
 &pinctrl {
