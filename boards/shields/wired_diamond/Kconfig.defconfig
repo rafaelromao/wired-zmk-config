@@ -15,7 +15,5 @@ if SHIELD_WIRED_DIAMOND_LEFT || SHIELD_WIRED_DIAMOND_RIGHT
 
 config ZMK_SPLIT_WIRED
     default y
-config SERIAL
-    default y
 
 endif
