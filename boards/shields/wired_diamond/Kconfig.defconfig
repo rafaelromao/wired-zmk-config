@@ -13,12 +13,8 @@ endif
 
 if SHIELD_WIRED_DIAMOND_LEFT || SHIELD_WIRED_DIAMOND_RIGHT
 
-config ZMK_SPLIT
+config ZMK_SPLIT_WIRED
     default y
-
-config ZMK_SPLIT_SERIAL
-	default y
-
 config SERIAL
     default y
 

@@ -2,12 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: xudongzheng
-      url-base: https://github.com/xudongzheng
   projects:
     - name: zmk
-      remote: xudongzheng
-      revision: split-serial-pr
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
